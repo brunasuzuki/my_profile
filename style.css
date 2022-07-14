@@ -91,6 +91,8 @@ a {
   margin: 40px auto;
 }
 
+
+/* to have a responsive design, we use media queries and to use media queries, we must have <meta name="viewpoint".....> line in the <head> of your html */
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
