@@ -1,34 +1,86 @@
 /* Colors and fonts */
 body {
-  background-color: rgb(19, 144, 129);
+  background-color: rgb(203, 219, 217);
   color: #8E3200;
-  font-family: 'Lora', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
   font-weight: lighter;
 }
+
 h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family:'Roboto', sans-serif;
 }
+
 h1 {
   color: #8E3200;
   font-size: 32px;
   font-weight: 900;
 }
+
+/* h2 { follow me } */
 h2 {
-  color: #7ECE90;
-  font-size: 20px;
+  color: #930f0f;
+  font-size: 17px;
   font-weight: lighter;
-  font-weight: 500;
+  font-weight: 400;
 }
+
+/* a{ discover button } */
 a {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   color: #A64B2A;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
 }
-a:hover {
-  color: black;
+
+/* .card-white{ name and follow me card } */
+.card-white {
+  background-color: #FCFFE7;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #A64B2A;
+  /* color is for the letter inside the button */
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: #c35b36;
+  /* color is for the letter after the hover action */
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: #A64B2A;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
 }
 
 
@@ -55,48 +107,4 @@ a:hover {
   .container {
     width: 300px;
   }
-}
-
-
-.card-white {
-  background-color: #FCFFE7;
-  padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 4px;
-  margin: 20px 0px;
-  text-align: center;
-}
-.img-circle {
-  border-radius: 50%;
-}
-.btn-blue {
-  background-color: #A64B2A;
-  color: white;
-  padding: 15px 20px;
-  border-radius: 4px;
-}
-.btn-blue:hover {
-  background-color: #FFEBC1;
-  color: white;
-}
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
-}
-
-.list-inline li {
-  display: inline;
-  padding: 10px;
-}
-.list-inline i {
-  font-size: 50px;
-  color: rgb(230, 230, 230);
-}
-.list-inline i:hover {
-  color: #A64B2A;
-}
-
-/* Design adjustments using id (1% design remaining) */
-#introduction p {
-  margin-bottom: 40px;
 }
