@@ -1,6 +1,6 @@
 /* Colors and fonts */
 body {
-  background-color: rgb(203, 219, 217);
+  background-image: url("background.png");
   color: #8E3200;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
@@ -61,11 +61,11 @@ a {
   color: white;
 }
 
+/*  .list-inline{ social media icons } */
 .list-inline {
   list-style: none;
   padding-left: 0px;
 }
-
 .list-inline li {
   display: inline;
   padding: 10px;
@@ -82,7 +82,6 @@ a {
 #introduction p {
   margin-bottom: 40px;
 }
-
 
 /* Custom design with class (99% of your design) */
 .container {
