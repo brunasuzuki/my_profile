@@ -63,7 +63,7 @@ a {
   color: white;
 }
 
-/*  .list-inline{ social media icons } */
+/* .list-inline{ social media icons } */
 .list-inline {
   list-style: none;
   padding-left: 0px;
@@ -92,7 +92,7 @@ a {
 }
 
 
-/* to have a responsive design, we use media queries and to use media queries,
+/* to have a responsive design, we use media queries "@media" and to use media queries,
 we must have <meta name="viewpoint".....> line in the <head> of your html */
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
